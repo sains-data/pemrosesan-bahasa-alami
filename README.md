@@ -19,105 +19,107 @@ Mampu mengembangkan sistem Question Answering berbasis Natural language processi
 
 ## Topik Perkuliahan
 
-1. Pengantar Pemrosesan Bahasa Alami (NLP)
+1. **Pengantar Pemrosesan Bahasa Alami (NLP)**
 
 -  Definisi dan ruang lingkup NLP dalam kecerdasan buatan
 -  Tantangan utama NLP (ambiguity, sparsity, dll.)
 -  Aplikasi NLP di dunia nyata
 -  Arsitektur dasar sistem NLP: pipeline klasik vs end-to-end learning
 
-2. Teknik Ekstraksi Fitur dalam Teks Bahasa Alami
+2. **Teknik Ekstraksi Fitur dalam Teks Bahasa Alami**
 
 -  Representasi teks: Bag-of-Words (BoW) dan TF-IDF
 -  One-hot encoding dan keterbatasannya
 -  Feature selection dalam klasifikasi teks
 -  Implementasi ekstraksi fitur pada dataset teks sederhana
 
-3. Pra-pemrosesan Teks, Word Embeddings, dan Language Models
+3. **Pra-pemrosesan Teks, Word Embeddings, dan Language Models**
 
 -  Tokenisasi, stemming, lemmatization, stopword removal
 -  Word embeddings: Word2Vec, GloVe, fastText
 -  Praktik menggunakan NLTK dan spaCy
 -  Language model: n-gram vs pretrained models
 
-4. POS Tagging dan Pemodelan Tag N-Gram
+4. **POS Tagging dan Pemodelan Tag N-Gram**
 
 -  Konsep dan tujuan POS tagging
 -  N-gram model dan Hidden Markov Model (HMM)
 -  Dataset POS tagging (misalnya Penn Treebank)
 -  Evaluasi dan akurasi POS tagger
 
-5. Sistem Information Retrieval (IR)
+5. **Sistem Information Retrieval (IR)**
 
 -  Konsep dan arsitektur sistem IR
 -  Relevansi dan perankingan dokumen
 -  Evaluasi IR: precision, recall, F1-score, MAP
 -  Aplikasi IR: search engine, Q&A system, recommendation
 
-6. Teknik Labeling dan Aplikasi Text Mining
+6. **Teknik Labeling dan Aplikasi Text Mining**
 
 -  Text annotation: manual vs otomatis
 -  Named Entity Recognition (NER)
 -  Text mining: klasifikasi, klastering, analisis sentimen
 -  Tools: spaCy, NLTK, Prodigy
 
-7. Algoritma NLP dalam Machine Learning
+7. **Algoritma NLP dalam Machine Learning**
 
 -  Representasi fitur untuk supervised learning
 -  Algoritma klasifikasi: Naive Bayes, SVM, Decision Tree
 -  Unsupervised NLP: clustering dan topic modeling (LDA)
 -  Integrasi NLP–ML dalam pipeline prediksi teks
 
-8. Ujian Tengah Semester (UTS)
+8. **Ujian Tengah Semester (UTS)**
 
-9. Dependency Parsing dan Analisis Sintaksis
+9. **Dependency Parsing dan Analisis Sintaksis**
 
 -  Konsep dependency vs constituency parsing
 -  Dependency tree dan relasi sintaksis
 -  Algoritma parsing: transition-based dan graph-based
 -  Implementasi parser dengan spaCy atau Stanza
 
-10. Deep Learning untuk NLP
+10. **Deep Learning untuk NLP**
 
 -  Peran deep learning dalam NLP
 -  Arsitektur RNN, LSTM, dan GRU
 -  Model sequence-to-sequence (seq2seq)
 -  Perbandingan pendekatan tradisional vs deep learning
 
-11. Transformer dan Model Pretrained
+11. **Transformer dan Model Pretrained**
 
 -  Self-attention dan positional encoding
 -  Encoder–decoder Transformer
 -  Model pretrained: BERT, GPT, RoBERTa
 -  Fine-tuning untuk tugas NLP spesifik
 
-12. Post-Training Model Bahasa Besar
+12. **Post-Training Model Bahasa Besar**
 
 -  Motivasi post-training
 -  Reinforcement Learning from Human Feedback (RLHF)
 -  Supervised Fine-Tuning (SFT)
 -  Direct Preference Optimization (DPO)
 
-13. Adaptasi Efisien Model Bahasa
+13. **Adaptasi Efisien Model Bahasa**
 
 -  Prompt engineering
 -  Zero-shot, one-shot, few-shot prompting
 -  Parameter-Efficient Fine-Tuning (PEFT): LoRA, Adapter, Prefix Tuning
 -  Perbandingan fine-tuning penuh vs PEFT
 
-14. Evaluasi dan Benchmarking Model NLP
+14. **Evaluasi dan Benchmarking Model NLP**
 
 -  Metrik evaluasi: accuracy, F1, BLEU, ROUGE, perplexity
 -  Evaluasi tugas klasifikasi, ekstraksi, dan generasi
 -  Benchmark: GLUE, SuperGLUE, SQuAD, HELM
 -  Tantangan evaluasi model skala besar
 
-15. Question Answering dan Representasi Pengetahuan
+15. **Question Answering dan Representasi Pengetahuan**
 
 -  Tipe sistem QA: open-domain vs closed-domain
 -  Pipeline QA: retrieval dan reader/generator
 -  Knowledge graph dan knowledge embedding
 -  Integrasi QA dengan LLM dan sumber eksternal
+
+16. **Ujian Akhir Semester (UAS)**
 
 ## Teknologi dan Library yang Digunakan
 
