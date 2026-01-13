@@ -132,6 +132,7 @@ Mampu mengembangkan sistem Question Answering berbasis Natural language processi
 7. Jupyter Notebook
 
 ## Struktur Repository
+```
 .
 ├── 01-pengantar-nlp/
 ├── 02-ekstraksi-fitur/
@@ -149,6 +150,7 @@ Mampu mengembangkan sistem Question Answering berbasis Natural language processi
 ├── 15-question-answering/
 ├── referensi/
 └── README.md
+```
 
 ## Referensi Utama
 
